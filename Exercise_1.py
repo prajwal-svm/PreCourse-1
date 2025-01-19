@@ -2,7 +2,6 @@
 Exercise_1 : Implement Stack using Array.
 
 # Time Complexity :
-
 - push(): O(1) amortized (append to end of list is amortized O(1))
 - pop(): O(1)
 - peek(): O(1)
@@ -11,11 +10,9 @@ Exercise_1 : Implement Stack using Array.
 - show(): O(1)
 
 # Space Complexity :
-
 - O(n) where n is the number of elements in the stack
 
 # Did this code successfully run on Leetcode :
-
 - Ran on my local machine, here's the output:
 
 ❯ python3 Exercise_1.py 
@@ -27,7 +24,6 @@ Exercise_1 : Implement Stack using Array.
 - No
 """
 
-# Your code here along with comments explaining your approach
 class myStack:
     
     def __init__(self):
